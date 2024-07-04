@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Yuxin (Julius) Chen"
 title_separator          : "-"
-name                     : &name "Yuxin (Julius) Chen 陈宇昕"
+name                     : &name "Yuxin Chen 陈宇昕"
 description              : #&description "personal description"
 url                      : https://yuxin2003.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,9 +22,9 @@ repository               : "yuxin2003/yuxin2003.github.io"
 author:
   # Biographic information
   avatar           : "yuxin.png"
-  name             : "Yuxin (Julius) Chen 陈宇昕"
+  name             : "Yuxin Chen 陈宇昕"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "   "
   location         : "Zürich, Switzerland"
   employer         : "University of Zürich"
   uri              : # URL
