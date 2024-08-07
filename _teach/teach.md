@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/6e1b7c71-766f-4ca3-ab4c-6eb7e7ddcceb)---
-permalink: /
+permalink: /teach/teach.md
 title: "Teaching Support"
 author_profile: true
 
