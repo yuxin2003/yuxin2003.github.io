@@ -18,5 +18,5 @@ Yuxin obtained teaching support appointments for several courses in his undergra
   * Assistant Lecturer
 
 * Research Seminar of Future Global Media Lab
-  * 2021 Spring | 2022 Spring | 2022 Fall
+  * 2021 Spring, 2022 Spring, 2022 Fall
   * Teaching Assistant
