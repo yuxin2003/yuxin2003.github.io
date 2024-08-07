@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Yuxin (Julius) is an incoming master student in [Department of Communication and Media Studies(IKMZ)](https://www.ikmz.uzh.ch/en.html), [University of Zürich](https://www.uzh.ch/en.html). Before coming to IKMZ, he earned his B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/).
+Yuxin (Julius) is an incoming master student in [Department of Communication and Media Studies(IKMZ)](https://www.ikmz.uzh.ch/en.html), [University of Zurich](https://www.uzh.ch/en.html). Before coming to IKMZ, he earned his B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/). Yuxin was honored with the Excellence Graduate Award of Shanghai in 2024. His education has been supported by a number of scholarships, including the Chinese Undergraduate National Scholarship.
 
 His research focuses on (1) the relationship of Internet uses and health status and (2) how to use the Internet to intervene in health behaviors. Recently he is working on the effects of information-seeking behavior in the Internet on individuals' anxiety. He specializes in the use of survey, behavioral experiment, and quantitative methods. You can learn more about his research work in the Research page.
 
