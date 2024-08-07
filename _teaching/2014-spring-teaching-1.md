@@ -1,20 +1,17 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Support"
 collection: teaching
-type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Yuxin obtained teaching support appointments for several courses in his undergraduate program. He has experience supporting teaching, assisting with course syllabus design, and serving as a course coordinator.
 
-Heading 1
-======
+Bachelor Graduation Thesis
+24 Spring                        Coordinator
 
-Heading 2
-======
+Fact Checking and Misinformation
+22 Spring                        Assistant Lecturer
 
-Heading 3
-======
+Research Seminar of Future Global Media Lab
+21 Spring, 22 Spring, 22 Fall    Teaching Assistant
+
