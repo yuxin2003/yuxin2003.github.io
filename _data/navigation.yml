@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Research Works"
-    url: /publications/
+    url: /research/
 
   - title: "Teaching Support"
     url: /teach/    
@@ -9,8 +9,8 @@ main:
   - title: "Work Experiences"
     url: /work/
     
-  - title: "Portfolio"
-    url: /portfolio/
+  #- title: "Portfolio"
+  #  url: /portfolio/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
