@@ -1,1 +1,22 @@
+---
+layout: archive
+title: "Work Experiences"
+permalink: /work/
+author_profile: true
+---
 
+{% include base_path %}
+
+Yuxin obtained teaching support appointments for several courses in his undergraduate program. He has experience supporting teaching, assisting with course syllabus design, and serving as a course coordinator.
+
+* Bachelor Graduation Thesis
+  * 2024 Spring
+  * Coordinator
+
+* Fact Checking and Misinformation
+  * 2022 Spring
+  * Assistant Lecturer
+
+* Research Seminar of Future Global Media Lab
+  * 2021 Spring, 2022 Spring, 2022 Fall
+  * Teaching Assistant
