@@ -7,16 +7,22 @@ author_profile: true
 
 {% include base_path %}
 
-Yuxin obtained teaching support appointments for several courses in his undergraduate program. He has experience supporting teaching, assisting with course syllabus design, and serving as a course coordinator.
+NIO inc.
+  * 10/2023 - 06/2024
+  * Intern, Communication & User Grouth Operation 
 
-* Bachelor Graduation Thesis
-  * 2024 Spring
-  * Coordinator
+NYU Shanghai
+  * 06/2023 - 09/2023
+  * Intern, Graduate Admissions
 
-* Fact Checking and Misinformation
-  * 2022 Spring
-  * Assistant Lecturer
+PwC Acceleration Center Shanghai
+  * 10/2022 - 03/2023
+  * Intern, Employee Relationship
 
-* Research Seminar of Future Global Media Lab
-  * 2021 Spring, 2022 Spring, 2022 Fall
-  * Teaching Assistant
+CAREER International
+  * 06/2022 - 10/2023
+  * Intern, Consulting
+
+Pear Video
+  * 08/2021 - 09/2021
+  * Intern, Media Content Operation
