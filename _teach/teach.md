@@ -1,5 +1,5 @@
 ---
-permalink: /teach/teach.md
+permalink: /teach/teach
 title: "Teaching Support"
 author_profile: true
 ---
