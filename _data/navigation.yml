@@ -3,7 +3,7 @@ main:
   - title: "Research Works"
     url: /publications/
 
-  - title: "Teaching"
+  - title: "Teaching Support"
     url: /teaching/    
 
   - title: "Work Experiences"
@@ -15,7 +15,7 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV"
+  #- title: "CV"
     url: /cv/
     
   #- title: "Guide"
