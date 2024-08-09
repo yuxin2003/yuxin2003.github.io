@@ -9,7 +9,7 @@ author_profile: true
 
 Yuxin obtained teaching support appointments for several courses in his undergraduate program. He has experience supporting teaching, assisting with course syllabus design, and serving as a course coordinator.
 
-* Bachelor Graduation Thesis
+* Undergraduate Graduation Thesis
   * 2024 Spring
   * Coordinator
 
