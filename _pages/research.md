@@ -14,7 +14,7 @@ Research Works
 
 * From Information Seeking to Body Image Anxiety: Exploring the Underlying Mechanisms
   * 06/2023 - 05/2024
-  * This study confirms the positive correlation between information seeking orientation and body image anxiety, and the mediating utility of social media engagement therein, using a national questionnaire research (n=374). Tolerance of uncertainty was also shown to be associated with this effect, moderating the impact of social media engagement on body image anxiety.  
+  * This study confirms the positive correlation between information seeking orientation and body image anxiety, and the mediating utility of social media engagement therein, using a national questionnaire research. Tolerance of uncertainty was also shown to be associated with this effect, moderating the impact of social media engagement on body image anxiety.  
 <br/>
 * Factors of Elderly People's Judgment of Health Science Videos' Authenticity in Social Media
   * 09/2022 - 03/2023
