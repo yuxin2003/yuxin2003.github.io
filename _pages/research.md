@@ -20,10 +20,6 @@ Research Works
   * 09/2022 - 03/2023
   * This experimental study proved that proficiency in using media technology play a significant role in the process of judging. When the user is skilled, it's more conducive to judging the authenticity of the content. While not skilled, it takes more effort to complete.  
 <br/>
-* Motivations, Behaviors, and Satisfaction of Newsletter Usage from the Perspective of Usage and Satisfaction
-  * 10/2022 - 01/2023
-  * We investigated the motivations and behaviors of Newsletter users, as well as the impact of motivations and behaviors on satisfaction through a  survey. Obtaining high-quality information is the most important motivation, while another one comes from the emotional connection. Emotional companionship, entertainment and privacy, have different degrees of influence on the behavior of using Newsletters. Strong motivation can increase users' satisfaction level accordingly.  
-<br/>
 * The Paper FactCheck: Traceability, Verification and Reporting of Unverified Information in Social Media
   * 04/2022 – 10/2022
   * In more than six months of fact-checking, I verified hundreds of claims and prevented the spread of misinformation. My work reduced the impact of misinformation on people during the outbreak. While completing my fact-checking work, I conducted two lectures on fact-checking skills. To this day, a number of students continue their fact-checking work under my guidance. You can follow @fact_paper on Twitter to find out more about our work.  
