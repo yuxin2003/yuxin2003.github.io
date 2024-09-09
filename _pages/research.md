@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Yuxin's research focuses on (1) the relationship of Internet uses and health status and (2) how to use the Internet to intervene in health behaviors. Additionally, he is also interested in the study of misinformation on the Internet. Recently he is working on the effects of information-seeking behavior in the Internet on individuals’ anxiety. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
+Yuxin's research focuses on (1) the relationship of Internet uses and health status and (2) how to use the Internet to intervene in health behaviors. Recently he's working on how information-seeking behavior affects the level of body image anxiety. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
 
 Yuxin would be happy to receive invitations for collaboration related to his research interests. Please contact him by email.
 
