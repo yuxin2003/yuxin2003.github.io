@@ -19,3 +19,10 @@ Beyond Research
 Yuxin has extensive multi-industry internship experiences. He recently completed an eight-month tenure as a communication specialist at [NIO](https://www.nio.com/?noredirect=). Prior to that, he worked as a graduate admissions officer at [NYU Shanghai](https://shanghai.nyu.edu/).
 
 Additionally, he is a professional photographer with experience at AW 2021 Shanghai Fashion Week.
+
+---
+
+Curriculum Vitae
+===
+
+[CV Here!](Chen Yuxin_CV_2409.pdf)
