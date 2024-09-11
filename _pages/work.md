@@ -7,7 +7,7 @@ author_profile: true
 
 ### [NIO Inc.](https://www.nio.com/?noredirect=)
   * 10/2023 - 06/2024
-  * Intern, Communication & User Grouth Operation
+  * Intern, Communication & User Growth Operation
     
 ### [NYU Shanghai](https://shanghai.nyu.edu/)
   * 06/2023 - 09/2023
