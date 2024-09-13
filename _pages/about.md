@@ -27,4 +27,4 @@ Additionally, he is a professional photographer with experience at AW 2021 Shang
 Curriculum Vitae
 ===
 
-[CV](files/2409_Yuxin_Chen_CV.pdf)Here!
+[CV](files/2409_Yuxin_Chen_CV.pdf) Here!
