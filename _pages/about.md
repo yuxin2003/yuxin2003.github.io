@@ -27,4 +27,4 @@ Additionally, Yuxin is a professional photographer and concert director. He has 
 Curriculum Vitae
 ===
 
-[CV](files/2409_YuxinChen_CV.pdf) Here!
+[CV](files/YuxinChen_CV_2409.pdf) Here!
