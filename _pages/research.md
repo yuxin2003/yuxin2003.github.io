@@ -18,7 +18,7 @@ Projects
 <br/>
 * Factors of Elderly People's Judgment of Health Science Videos' Authenticity in Social Media
   * 09/2022 - 03/2023
-  * This experimental study proved that proficiency in using general media technology play a significant role in the process of judging the authenticity. The trust in the general environment results in older people letting down their guard. While the willingness of sharing improves their judgement.
+  * This experimental study proved that proficiency in using general media technology play a significant role in the process of judging the authenticity. The trust in the general environment results in older people letting down their guard. While the willingness of sharing improves their judgement.  
 <br/>
 * The Paper FactCheck: Traceability, Verification and Reporting of Unverified Information in Social Media
   * 04/2022 – 10/2022
