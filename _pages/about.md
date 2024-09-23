@@ -18,9 +18,7 @@ Yuxin's research focuses on health communication and Internet use. He specialize
 
 Beyond Research
 ======
-Yuxin has extensive multi-industry internship experiences. He recently completed an eight-month tenure as a communication specialist at [NIO](https://www.nio.com/?noredirect=). Prior to that, he worked as a graduate admissions officer at [NYU Shanghai](https://shanghai.nyu.edu/).
-
-Additionally, Yuxin is a professional photographer and concert director. He has worked on the show management of several famous singers, including G.E.M., Zhang Jie (Jason) and Teens In Times (TNT).
+Yuxin has extensive multi-industry internship experiences. Additionally, he is a professional photographer and concert director. He has worked on the concert management of several famous singers, including G.E.M., Zhang Jie (Jason) and Teens In Times (TNT).
 
 ---
 
