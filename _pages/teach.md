@@ -11,7 +11,7 @@ Yuxin obtained teaching support appointments for several courses in his undergra
 
 * Undergraduate Graduation Thesis
   * 2024 Spring
-  * Coordinator
+  * Assistant Coordinator
 
 * Fact Checking and Misinformation
   * 2022 Spring
