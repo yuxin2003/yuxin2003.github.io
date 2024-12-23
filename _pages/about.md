@@ -18,6 +18,7 @@ Yuxin's research focuses on health communication and Internet use. He specialize
 
 Beyond Research
 ======
+![](images/concert.JPG)
 Yuxin has extensive multi-industry internship experiences. Additionally, he is a professional photographer and concert director. He has worked on the concert management of several famous singers, including G.E.M., Zhang Jie (Jason) and Teens In Times (TNT).
 
 ---
