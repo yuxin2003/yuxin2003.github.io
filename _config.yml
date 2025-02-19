@@ -2,7 +2,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuxin (Julius) Chen"
+title                    : "Yuxin Chen"
 title_separator          : "-"
 name                     : &name "Yuxin Chen 陈宇昕"
 description              : #&description "personal description"
