@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Yuxin's research focuses on (1) the relationship between Internet/Technology uses and health status and (2) how to use the Internet to intervene in health behaviors. Recently he's working on AI-driven digital health. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
+Yuxin's research focuses on the impact of social media use on mental health and the effectiveness of social media-based interventions or policies in promoting well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
 
 Yuxin would be happy to receive invitations for collaboration related to his research. Please contact him via email.
 
@@ -26,6 +26,6 @@ Projects
 <br/>
 * Comparative Effectiveness of Substituted Fact and Credibility Indicator in Blocking Misinformation Related to the COVID-19 Epidemic
   * 03/2022 - 06/2022
-  * This study used quantitative experiments to compare two academically recognized  blocking strategies. The conclusion shows that the blocking effect of substitutable facts is significantly better than providing credibility indicators. Meanwhile, when the two are used at the same time, they show a stronger blocking effect and mutual regulation.
+  * This study used quantitative experiments to compare two academically recognized  blocking strategies. The conclusion shows that the blocking effect of substituted facts is significantly better than providing credibility indicators. Meanwhile, when the two are used at the same time, they show a stronger additive effect.
 
   
