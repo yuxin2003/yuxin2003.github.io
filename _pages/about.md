@@ -28,4 +28,4 @@ Yuxin has extensive multi-industry internship experiences. Additionally, he is a
 Curriculum Vitae
 ===
 
-[Download my full CV here!](files/YuxinChen_CV_Mar25.pdf)
+[Download my full CV here!](files/YuxinChen_CV_Apr25.pdf)
