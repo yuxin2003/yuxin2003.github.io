@@ -9,6 +9,11 @@ Yuxin's research focuses on the impact of social media use on mental health and 
 
 Yuxin would be happy to receive invitations for collaboration related to his research. Please contact him via email.
 
+Publication
+---
+
+1. Chen, Y. (2025). Navigating the digital mirror: The role of information-seeking orientation and uncertainty tolerance in social media-driven body image anxiety. _Computers in Human Behavior Reports, 18_, 100665.[(Open Access)](https://doi.org/10.1016/j.chbr.2025.100665)
+
 Projects
 ---
 
