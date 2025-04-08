@@ -12,7 +12,7 @@ Yuxin would be happy to receive invitations for collaboration related to his res
 Publication
 ---
 
-1. Chen, Y. (2025). Navigating the digital mirror: The role of information-seeking orientation and uncertainty tolerance in social media-driven body image anxiety. _Computers in Human Behavior Reports, 18_, 100665.[(Open Access)](https://doi.org/10.1016/j.chbr.2025.100665)
+1. Chen, Y. (2025). Navigating the digital mirror: The role of information-seeking orientation and uncertainty tolerance in social media-driven body image anxiety. _Computers in Human Behavior Reports, 18_, 100665. [Open Access](https://doi.org/10.1016/j.chbr.2025.100665)
 
 Projects
 ---
