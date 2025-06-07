@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-Yuxin's research focuses on the impact of social media use on mental health and the effectiveness of social media-based interventions or policies in promoting well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
+Yuxin's research focuses on the impact of Internet use on health and the effectiveness of Internet-based interventions in promoting well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods.  
 
 Yuxin would be happy to receive invitations for collaboration related to his research. Please contact him via email.
 
