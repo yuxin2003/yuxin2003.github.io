@@ -18,7 +18,7 @@ Yuxin's research focuses on social media use and mental health. He specializes i
 Curriculum Vitae
 ===
 
-[Download my full CV here!](files/YuxinChen_CV_Apr25.pdf)
+[Download my full CV here!](files/YuxinChen_CV_May25.pdf)
 
 ---
 
