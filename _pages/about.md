@@ -11,7 +11,7 @@ Yuxin is a master's student in [Institute of Communication and Media Research (I
 
 Yuxin was honored with the Excellent Graduate Award of Shanghai in 2024. His education has been supported by a number of scholarships, including the Chinese Undergraduate National Scholarship.
 
-Yuxin's research focuses on social media use and well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods. You can learn more about his research in the [Research Works](https://yuxin2003.github.io/research/) page.
+Yuxin's research focuses on Internet use and well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods. You can learn more about his research in the [Research Works](https://yuxin2003.github.io/research/) page.
 
 ---
 
