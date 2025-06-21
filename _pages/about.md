@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Yuxin is a master's student in [Institute of Communication and Media Research (IKMZ)](https://www.ikmz.uzh.ch/en.html), University of Zurich. Before coming to IKMZ, he earned his B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/). 
+Hello, I'm Yuxin. I'm a master's student in [Institute of Communication and Media Research (IKMZ)](https://www.ikmz.uzh.ch/en.html), University of Zurich. Before coming to IKMZ, I earned my B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/). 
 
-Yuxin was honored with the Excellent Graduate Award of Shanghai in 2024. His education has been supported by a number of scholarships, including the Chinese Undergraduate National Scholarship.
+I was honored with the Excellent Graduate Award of Shanghai in 2024. My study has been supported by a number of scholarships, including the Chinese Undergraduate National Scholarship.
 
-Yuxin's research focuses on Internet use and well-being. He specializes in the use of survey, behavioral experiment, and quantitative methods. You can learn more about his research in the [Research Works](https://yuxin2003.github.io/research/) page.
+My research focuses on emerging technology and well-being. I specialize in the use of quantitative methods (survey, experiment, and experience sampling method). You can learn more about my research in the [Research Works](https://yuxin2003.github.io/research/) page.
 
 ---
 
@@ -24,10 +24,7 @@ Curriculum Vitae
 
 Beyond Research
 ======
-Yuxin has extensive multi-industry internship experiences. Additionally, he is a professional photographer and concert director. He has worked on the concert management of several famous singers, including G.E.M., Zhang Jie (Jason) and Teens In Times (TNT).
-
-![](images/concert.JPG)
-*Yuxin with the staff at the concert he directed in 2023*  
+I have extensive multi-industry internship experiences. Additionally, I was a professional photographer and concert director. I had worked on the concert management of several famous singers, including G.E.M., Zhang Jie (Jason) and Teens In Times (TNT).
 
 
 
