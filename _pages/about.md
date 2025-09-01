@@ -18,7 +18,7 @@ My research focuses on emerging technology and well-being. I specialize in the u
 Curriculum Vitae
 ===
 
-[Download my full CV here!](files/YuxinChen_CV_July25.pdf)
+[Download my full CV here!](files/YuxinChen_CV_Sept25.pdf)
 
 ---
 
