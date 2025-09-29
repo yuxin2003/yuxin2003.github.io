@@ -3,13 +3,13 @@ main:
   - title: "About"
     url: /about/
   
-  - title: "Research Works"
+  - title: "Research"
     url: /research/
 
   #- title: "Teaching Support"
   #  url: /teach/    
 
-  - title: "Work Experiences"
+  - title: "Internship"
     url: /work/
     
   #- title: "Portfolio"
