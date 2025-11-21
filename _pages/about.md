@@ -7,18 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm Yuxin. I'm a master's student in [Institute of Communication and Media Research (IKMZ)](https://www.ikmz.uzh.ch/en.html), University of Zurich. Before coming to IKMZ, I earned my B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/). 
+Hello, I’m **Yuxin Chen**. I’m a master’s student in [Department of Communication and Media Research (IKMZ)](https://www.ikmz.uzh.ch/en.html), University of Zurich, supervised by [Prof. Tobias Dienlin](https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/tobias-dienlin.html) and [Dr. Nicole Bizzotto](https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/nicole-bizzotto.html). Before coming to IKMZ, I earned my B.A. with distinction from [Shanghai International Studies University](https://en.shisu.edu.cn/). 
 
-I was honored with the Excellent Graduate Award of Shanghai in 2024. My study has been supported by a number of scholarships, including the Chinese Undergraduate National Scholarship.
+My research focuses on **emerging technologies** and **health communication** with a **quantitative approach** (survey, experiment, and experience sampling method). I’m currently interested in: (1) how emerging technologies, such as AI chatbots, can be utilized for health interventions (2) the development of online mental health tools based on uncertainty management. You can learn more about my research in the [Research Works](https://yuxin2003.github.io/research/) page.
 
-My research focuses on emerging technology and well-being. I specialize in the use of quantitative methods (survey, experiment, and experience sampling method). You can learn more about my research in the [Research Works](https://yuxin2003.github.io/research/) page.
+My work has published in *Computers in Human Behavior Reports*, and at conferences, such as the annual conference of the International Communication Association (*ICA*).
 
 ---
 
 Curriculum Vitae
 ===
 
-[Download my full CV here!](files/YuxinChen_CV_Sept25.pdf)
+[Download my full CV here!](files/YuxinChen_CV_Nov25.pdf)
 
 ---
 
