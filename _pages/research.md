@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-My research focuses on emerging technologies and health communication with a quantitative approach (survey, experiment, and experience sampling method). I’m currently interested in: (1) how emerging technologies, such as AI chatbots, can be utilized for health interventions (2) the development of online mental health tools based on uncertainty management. 
+My research focuses on emerging technologies and health communication with a quantitative approach (survey, experiment, and experience sampling method). I’m currently interested in: (1) how emerging technologies, such as AI chatbots, can be utilized for health interventions; and (2) the impact of daily social media use on mental health. 
 
 I'm happy to receive invitations for collaboration related to my research. Please contact me via email.
 
