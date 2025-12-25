@@ -18,7 +18,7 @@ My work has published in *Computers in Human Behavior Reports*, and at conferenc
 Curriculum Vitae
 ===
 
-[Download my full CV here!](files/YuxinChen_CV_Dec25.pdf)
+[Find my full CV here!](https://docs.google.com/document/d/1aRoPY5GJMtFku7VYAmP-7jfiebmlfumgZUQfECNFg2w/edit?usp=sharing)
 
 ---
 
