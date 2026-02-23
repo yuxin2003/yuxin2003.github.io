@@ -16,9 +16,9 @@ Publication
 
 Conference Presentation
 ---
-1. **Chen, Y.**, Lyu, N. (2026, June). When Algorithms and Privacy Matter: Contextual Pathways of Incidental Exposure Shaping Internal Efficacy. To be presented at the 76th Annual Conference of the International Communication Association (ICA), Cape Town, South Africa. ***(Promising Student Paper, Information System Division)***
-2. **Chen, Y.** (June 2025). *Blurry Reflections in Uncertain Times: Social Media, Information Seeking, and Body Image Anxiety.* Presented at the 7th Graduate Forum on Image Studies and Global Communication, Shanghai, China. ***(Top Paper Award)***
-3. **Chen, Y.**(June 2025). *Navigating the Digital Mirror: The Role of Information-Seeking Orientation and Uncertainty Tolerance in Social Media-Driven Body Image Anxiety.* Presented at the 75th Annual Conference of the International Communication Association (ICA), Denver, USA.
+1. **Chen, Y.** (2026, June). When Algorithms and Privacy Matter: Contextual Pathways of Incidental Exposure Shaping Internal Efficacy. To be presented at the 76th Annual Conference of the International Communication Association (ICA), Cape Town, South Africa. ***(Promising Student Paper, Information System Division)***
+2. **Chen, Y.** (2025, June). *Blurry Reflections in Uncertain Times: Social Media, Information Seeking, and Body Image Anxiety.* Presented at the 7th Graduate Forum on Image Studies and Global Communication, Shanghai, China. ***(Top Paper Award)***
+3. **Chen, Y.** (2025, June). *Navigating the Digital Mirror: The Role of Information-Seeking Orientation and Uncertainty Tolerance in Social Media-Driven Body Image Anxiety.* Presented at the 75th Annual Conference of the International Communication Association (ICA), Denver, USA.
   
 Selected Works in Progress
 ---
