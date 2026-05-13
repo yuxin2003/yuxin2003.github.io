@@ -6,10 +6,10 @@ main:
   - title: "Research"
     url: /research/
 
-  #- title: "Teaching Support"
+  - title: "Teaching & Speaking"
   #  url: /teach/    
 
-  - title: "Internships"
+  - title: "Internship"
     url: /work/
     
   #- title: "Portfolio"
