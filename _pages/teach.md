@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching Support"
+title: "Teaching & Speaking"
 permalink: /teach/
 author_profile: true
 ---
@@ -15,5 +15,7 @@ I obtained teaching support appointments for several courses in my undergraduate
   * 2021 Spring, 2022 Spring, 2022 Fall
   * Teaching Assistant
 
-In addition, I have delivered a range of talks and chaired seminars on topics including communication studies, research methods, and research ethics. A complete list of speaking activities can be found in my CV.
+---
+
+In addition, I have delivered a range of talks and chaired seminars on topics including communication studies, research methods, and research ethics. A complete list of speaking activities can be found in my [CV](https://docs.google.com/document/d/1aRoPY5GJMtFku7VYAmP-7jfiebmlfumgZUQfECNFg2w/edit?usp=sharing).
 
