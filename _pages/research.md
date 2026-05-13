@@ -14,7 +14,7 @@ Publication
 
 1. **Chen, Y**. (2025). Navigating the digital mirror: The role of information-seeking orientation and uncertainty tolerance in social media-driven body image anxiety. _Computers in Human Behavior Reports, 18_, 100665. [Open Access](https://doi.org/10.1016/j.chbr.2025.100665)
 
-Conference Presentation
+Conference Presentations
 ---
 1. **Chen, Y.** (2026, June). When Algorithms and Privacy Matter: Contextual Pathways of Incidental Exposure Shaping Internal Efficacy. To be presented at the 76th Annual Conference of the International Communication Association (ICA), Cape Town, South Africa. ***(Promising Student Paper, Information System Division)***
 2. **Chen, Y.** (2025, June). *Blurry Reflections in Uncertain Times: Social Media, Information Seeking, and Body Image Anxiety.* Presented at the 7th Graduate Forum on Image Studies and Global Communication, Shanghai, China. ***(Top Paper Award)***
@@ -23,6 +23,7 @@ Conference Presentation
 Selected Works in Progress
 ---
 
-1. **Chen, Y.**, Lyu, N. When Algorithms and Privacy Matter: Contextual Pathways of Incidental Exposure Shaping Internal Efficacy (Manuscript submitted)
-2. **Chen, Y.**, Bizzotto N., Dienlin T.  When AI Talks Health: Reasoning, Framing, and Threat in Shaping Persuasiveness (Under ethical review)
+1. **Chen, Y.**, Lyu, N. When Algorithms and Privacy Matter: Contextual Pathways of Incidental Exposure Shaping Internal Efficacy (In revising)
+2. **Chen, Y.**, Bizzotto N., Dienlin T. Beyond the Conclusion: The Impact of Reasoning Transparency and Message Framing on the Persuasiveness of AI-Generated Health Advice (Manuscript in preparation)
 3. Lyu, N., **Chen, Y.** Do Algorithms Make News Seem Fake? Investigating the Effects of Algorithmic Awareness on Fake News Perception (Manuscript in preparation)
+4. **Chen, Y.**, Divided by the Device: The Inequality of Digital Autonomy and Mental Health Outcomes in Office Hierarchies (Manuscript in preparation)
