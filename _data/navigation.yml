@@ -7,7 +7,7 @@ main:
     url: /research/
 
   - title: "Teaching & Speaking"
-  #  url: /teach/    
+    url: /teach/    
 
   - title: "Internship"
     url: /work/
