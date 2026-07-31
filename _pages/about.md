@@ -11,11 +11,13 @@ Hello, I’m **Yuxin Chen**. I’m a master’s student in [Department of Commu
 
 My research focuses on **AI-mediated health communication** and **persuasive message design**. I am currently interested in
 
-(1) identifying the message strategies and source characteristics that enhance the persuasiveness of AI-generated and algorithmically mediated health information, and 
+　　(1) identifying the message strategies and source characteristics that enhance the persuasiveness of AI-generated and algorithmically mediated health information, and 
 
-(2) understanding how AI can be used to develop adaptive communication interventions for health and risk management, particularly under conditions of uncertainty.
+　　(2) understanding how AI can be used to develop adaptive communication interventions for health and risk management, particularly under conditions of uncertainty.
 
-Methodologically, my work is primarily grounded in quantitative approaches, including surveys, experiments, and experience sampling. My work has published in *Computers in Human Behavior Reports*, and at conferences, such as the annual conference of the International Communication Association (*ICA*) with several paper awards.You can learn more about my research in the [Research](https://yuxin2003.github.io/research/) page.
+Methodologically, my work is primarily grounded in quantitative approaches, including surveys, experiments, and experience sampling. My work has published in *Computers in Human Behavior Reports*, and at conferences, such as the annual conference of the International Communication Association (*ICA*) with several paper awards.
+
+You can learn more about my research in the [Research](https://yuxin2003.github.io/research/) page.
 
 ---
 
