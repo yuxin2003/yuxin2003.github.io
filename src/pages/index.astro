@@ -1,16 +1,531 @@
 ---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import { publications } from "../data/publications";
+import { courses } from "../data/teaching";
+
+const postModules = import.meta.glob("./posts/*.md", {
+  eager: true,
+});
+
+const latestPosts = Object.entries(postModules)
+  .map(([path, post]) => {
+    const module = post;
+
+    const slug = path
+      .replace("./posts/", "")
+      .replace(".md", "");
+
+    return {
+      slug,
+      title: module.frontmatter.title,
+      description: module.frontmatter.description,
+      date: module.frontmatter.date,
+      sortDate: module.frontmatter.sortDate,
+    };
+  })
+  .sort((a, b) => {
+    return (
+      new Date(b.sortDate).getTime() -
+      new Date(a.sortDate).getTime()
+    );
+  })
+  .slice(0, 3);
+
+const latestPublications = publications.slice(0, 3);
+const featuredCourses = courses.slice(0, 3);
+
 ---
 
+
+
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      name="description"
+      content="Personal academic website of Yuxin Chen"
+    />
+
+    <title>Yuxin Chen</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Communication Researcher</p>
+
+          <h1>Yuxin Chen</h1>
+
+          <p class="hero-intro">
+            I study AI-mediated health communication, persuasive message design,
+            and adaptive communication interventions.
+          </p>
+
+          <p class="hero-meta">
+            Assistant Lecturer in Internet and New Media at Shanghai International Studies
+            University.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="/research">
+              View Research
+            </a>
+
+            <a class="button button-secondary" href="/cv">
+              View CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="hero-photo"
+            src="/images/portrait.JPG"
+            alt="Portrait of Yuxin Chen"
+          />
+        </div>
+      </section>
+
+
+
+
+
+
+
+<section class="research-section">
+  <div class="section-heading">
+    <h2>Research</h2>
+  </div>
+
+  <div class="research-intro">
+    <p>
+      My research focuses on AI-mediated health communication and persuasive
+      message design. I am particularly interested in how message strategies
+      and source characteristics shape responses to AI-generated and
+      algorithmically mediated health information, and how AI can support
+      adaptive communication interventions for health and risk management
+      under conditions of uncertainty.
+    </p>
+  </div>
+
+  <div class="publications-block">
+    <h3 class="subsection-title">Publications</h3>
+
+    <div class="publication-list">
+      {
+        latestPublications.map((publication) => (
+          <article class="publication-item">
+            <div class="publication-thumbnail">
+              <img
+                src={publication.image}
+                alt={`Thumbnail for ${publication.title}`}
+                loading="lazy"
+              />
+            </div>
+
+            <div class="publication-content">
+              <div class="publication-year">
+                {publication.year}
+              </div>
+
+              <h3>
+                {
+                  publication.link ? (
+                    <a
+                      href={publication.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {publication.title}
+                    </a>
+                  ) : (
+                    publication.title
+                  )
+                }
+              </h3>
+
+              <p class="publication-meta">
+                {publication.authors}
+                {" · "}
+                {publication.venue}
+              </p>
+            </div>
+
+            <div class="publication-action">
+              <span>{publication.status}</span>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+
+  <div class="section-link">
+    <a href="/research">
+      View research
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="teaching-section">
+  <div class="section-heading">
+    <h2>Teaching</h2>
+  </div>
+
+  <div class="teaching-grid">
+    {
+      featuredCourses.map((course) => (
+        <a class="course-item" href="/teaching">
+
+          <div class="course-image">
+            <img
+              src={course.image}
+              alt={course.title}
+              loading="lazy"
+            />
+          </div>
+
+          <div class="course-body">
+            <div class="course-top">
+              <span class="course-level">
+                {course.level}
+              </span>
+
+              <span
+                class="course-arrow"
+                aria-hidden="true"
+              >
+                ↗
+              </span>
+            </div>
+
+            <div>
+              <h3>{course.title}</h3>
+
+              <p>{course.description}</p>
+            </div>
+          </div>
+
+        </a>
+      ))
+    }
+  </div>
+
+  <div class="section-link">
+    <a href="/teaching">
+      Explore teaching
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section class="posts-section">
+  <div class="section-heading">
+    <h2>Posts</h2>
+  </div>
+
+  <div class="post-list">
+    {
+      latestPosts.map((post) => (
+        <a
+          class="post-item"
+          href={`/posts/${post.slug}`}
+        >
+          <div class="post-date">
+            {post.date}
+          </div>
+
+          <div class="post-content">
+            <h3>
+              {post.title}
+            </h3>
+
+            <p>
+              {post.description}
+            </p>
+          </div>
+
+          <div
+            class="post-arrow"
+            aria-hidden="true"
+          >
+            →
+          </div>
+        </a>
+      ))
+    }
+  </div>
+
+  <div class="section-link">
+    <a href="/posts">
+      View all posts
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="gallery-section">
+  <div class="section-heading">
+    <h2>Gallery</h2>
+  </div>
+
+  <div class="gallery-preview">
+    <a class="gallery-image gallery-image-large" href="/gallery">
+      <img
+        src="/images/gallery/photo-3.JPG"
+        alt="Photography by Yuxin Chen"
+      />
+    </a>
+
+    <div class="gallery-side">
+      <a class="gallery-image" href="/gallery">
+        <img
+          src="/images/gallery/photo-17.JPG"
+          alt="Photography by Yuxin Chen"
+        />
+      </a>
+
+      <a class="gallery-image" href="/gallery">
+        <img
+          src="/images/gallery/photo-22.JPG"
+          alt="Photography by Yuxin Chen"
+        />
+      </a>
+    </div>
+  </div>
+
+  <div class="section-link">
+    <a href="/gallery">
+      View gallery
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+  .hero {
+    min-height: calc(100vh - 64px);
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 0.78fr);
+    align-items: center;
+    gap: 96px;
+
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .hero-copy {
+    max-width: 720px;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 22px;
+  }
+
+  .hero h1 {
+    margin-bottom: 30px;
+
+    font-size: clamp(3rem, 6vw, 5.4rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+    font-weight: 600;
+  }
+
+  .hero-intro {
+    max-width: 650px;
+    margin-bottom: 20px;
+
+    color: var(--text-primary);
+
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+  }
+
+  .hero-meta {
+    max-width: 560px;
+    margin-bottom: 38px;
+
+    color: var(--text-secondary);
+
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .button {
+    min-height: 44px;
+    padding: 0 18px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 999px;
+
+    font-size: 0.92rem;
+    font-weight: 500;
+
+    transition:
+      transform 0.2s ease,
+      background 0.2s ease,
+      color 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .button:hover {
+    transform: translateY(-1px);
+  }
+
+  .button-primary {
+    background: #1d1d1f;
+    color: #ffffff;
+  }
+
+  .button-primary:hover {
+    background: #000000;
+  }
+
+  .button-secondary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+  }
+
+  .button-secondary:hover {
+    background: var(--surface);
+  }
+
+  .hero-visual {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-photo {
+    width: 100%;
+    max-width: 460px;
+    aspect-ratio: 4 / 5;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 24px;
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      min-height: auto;
+      grid-template-columns: 1fr;
+      gap: 56px;
+
+      padding-top: 80px;
+      padding-bottom: 88px;
+    }
+
+    .hero-copy {
+      max-width: 760px;
+    }
+
+    .hero-visual {
+      justify-content: flex-start;
+    }
+
+    .hero-photo {
+      max-width: 560px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .hero {
+      gap: 42px;
+      padding-top: 64px;
+      padding-bottom: 72px;
+    }
+
+    .hero h1 {
+      margin-bottom: 24px;
+    }
+
+    .hero-intro {
+      font-size: 1.35rem;
+    }
+
+    .hero-photo {
+      max-width: 100%;
+      border-radius: 18px;
+    }
+  }
+</style>
+  </body>
 </html>

@@ -1,0 +1,188 @@
+---
+import "../../styles/global.css";
+import Header from "../../components/Header.astro";
+
+const postModules = import.meta.glob("./*.md", { eager: true });
+
+const posts = Object.entries(postModules)
+  .map(([path, module]: any) => {
+    const slug = path
+      .replace("./", "")
+      .replace(".md", "");
+
+    return {
+      slug,
+      title: module.frontmatter.title,
+      description: module.frontmatter.description,
+      date: module.frontmatter.date,
+      sortDate: module.frontmatter.sortDate ?? module.frontmatter.date,
+    };
+  })
+  .sort(
+    (a, b) =>
+      new Date(b.sortDate).getTime() -
+      new Date(a.sortDate).getTime()
+  );
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      name="description"
+      content="Posts by Yuxin Chen"
+    />
+
+    <title>Posts | Yuxin Chen</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <main>
+      <section class="page-intro">
+        <h1>Posts</h1>
+
+        <p>
+          Notes on research, teaching, open science, and communication.
+        </p>
+      </section>
+
+      <section class="posts-page">
+        <div class="post-list">
+          {
+            posts.map((post) => (
+              <a
+                class="post-item"
+                href={`/posts/${post.slug}`}
+              >
+                <div class="post-date">
+                  {post.date}
+                </div>
+
+                <div>
+                  <h2>{post.title}</h2>
+
+                  <p>{post.description}</p>
+                </div>
+
+                <span
+                  class="post-arrow"
+                  aria-hidden="true"
+                >
+                  →
+                </span>
+              </a>
+            ))
+          }
+        </div>
+      </section>
+    </main>
+
+    <style>
+      .page-intro {
+        max-width: 760px;
+
+        padding-top: 120px;
+        padding-bottom: 80px;
+      }
+
+      .page-intro h1 {
+        margin-bottom: 24px;
+
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+        letter-spacing: -0.05em;
+      }
+
+      .page-intro p {
+        max-width: 620px;
+        margin-bottom: 0;
+
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
+
+      .posts-page {
+        padding-top: 0;
+        padding-bottom: 140px;
+      }
+
+      .post-list {
+        border-top: 1px solid var(--border);
+      }
+
+      .post-item {
+        display: grid;
+        grid-template-columns: 120px minmax(0, 1fr) auto;
+        gap: 32px;
+        align-items: start;
+
+        padding: 34px 0;
+
+        border-bottom: 1px solid var(--border);
+
+        transition: opacity 0.2s ease;
+      }
+
+      .post-item:hover {
+        opacity: 0.72;
+      }
+
+      .post-date {
+        color: var(--text-secondary);
+
+        font-size: 0.88rem;
+        font-weight: 500;
+      }
+
+      .post-item h2 {
+        margin-bottom: 10px;
+
+        font-size: 1.35rem;
+        line-height: 1.3;
+        letter-spacing: -0.025em;
+      }
+
+      .post-item p {
+        max-width: 720px;
+        margin-bottom: 0;
+
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+
+      .post-arrow {
+        color: var(--text-secondary);
+
+        font-size: 1.1rem;
+
+        transition: transform 0.2s ease;
+      }
+
+      .post-item:hover .post-arrow {
+        transform: translateX(4px);
+      }
+
+      @media (max-width: 700px) {
+        .page-intro {
+          padding-top: 80px;
+          padding-bottom: 56px;
+        }
+
+        .post-item {
+          grid-template-columns: 1fr;
+          gap: 8px;
+
+          padding: 26px 0;
+        }
+
+        .post-arrow {
+          display: none;
+        }
+      }
+    </style>
+  </body>
+</html>

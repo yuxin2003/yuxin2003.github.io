@@ -1,0 +1,221 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+
+const photos = [
+  {
+    src: "/images/gallery/photo-1.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Zurich, Switzerland",
+    size: "large",
+  },
+  {
+    src: "/images/gallery/photo-2.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Shanghai, China",
+    size: "medium",
+  },
+  {
+    src: "/images/gallery/photo-3.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Lucerne, Switzerland",
+    size: "small",
+  },
+  {
+    src: "/images/gallery/photo-4.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Beijing, China",
+    size: "medium",
+  },
+  {
+    src: "/images/gallery/photo-5.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Paris, France",
+    size: "large",
+  },
+  {
+    src: "/images/gallery/photo-6.JPG",
+    alt: "Photography by Yuxin Chen",
+    location: "Shanghai, China",
+    size: "small",
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      name="description"
+      content="Photography by Yuxin Chen"
+    />
+
+    <title>Gallery | Yuxin Chen</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <main>
+      <section class="page-intro">
+        <h1>Gallery</h1>
+
+        <p>
+          Photographs from places I have lived in, visited, and passed through.
+        </p>
+      </section>
+
+      <section class="gallery-page">
+        <div class="gallery-grid">
+          {
+            photos.map((photo, index) => (
+              <figure
+                class:list={[
+                  "photo-item",
+                  `photo-${photo.size}`,
+                  `photo-offset-${(index % 4) + 1}`,
+                ]}
+              >
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  loading="lazy"
+                />
+
+                <figcaption>
+                  {photo.location}
+                </figcaption>
+              </figure>
+            ))
+          }
+        </div>
+      </section>
+    </main>
+
+    <style>
+      .page-intro {
+        max-width: 760px;
+
+        padding-top: 120px;
+        padding-bottom: 100px;
+      }
+
+      .page-intro h1 {
+        margin-bottom: 24px;
+
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+        letter-spacing: -0.05em;
+      }
+
+      .page-intro p {
+        max-width: 620px;
+        margin-bottom: 0;
+
+        font-size: 1.15rem;
+        line-height: 1.6;
+      }
+
+      .gallery-page {
+        padding-top: 0;
+        padding-bottom: 160px;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 24px;
+        row-gap: 90px;
+        align-items: start;
+      }
+
+      .photo-item {
+        margin: 0;
+      }
+
+      .photo-item img {
+        width: 100%;
+        height: auto;
+
+        display: block;
+
+        border-radius: 18px;
+      }
+
+      .photo-item figcaption {
+        margin-top: 12px;
+
+        color: var(--text-secondary);
+
+        font-size: 0.82rem;
+        line-height: 1.4;
+      }
+
+      .photo-large {
+        grid-column: span 5;
+      }
+
+      .photo-medium {
+        grid-column: span 4;
+      }
+
+      .photo-small {
+        grid-column: span 3;
+      }
+
+      .photo-offset-1 {
+        margin-top: 0;
+      }
+
+      .photo-offset-2 {
+        margin-top: 70px;
+      }
+
+      .photo-offset-3 {
+        margin-top: 25px;
+      }
+
+      .photo-offset-4 {
+        margin-top: 110px;
+      }
+
+      @media (max-width: 900px) {
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 48px 20px;
+        }
+
+        .photo-large,
+        .photo-medium,
+        .photo-small {
+          grid-column: span 1;
+        }
+
+        .photo-offset-1,
+        .photo-offset-2,
+        .photo-offset-3,
+        .photo-offset-4 {
+          margin-top: 0;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .page-intro {
+          padding-top: 80px;
+          padding-bottom: 64px;
+        }
+
+        .gallery-grid {
+          grid-template-columns: 1fr;
+          gap: 52px;
+        }
+
+        .photo-item img {
+          border-radius: 14px;
+        }
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,297 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import { publications } from "../data/publications";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      name="description"
+      content="Research by Yuxin Chen"
+    />
+
+    <title>Research | Yuxin Chen</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <main>
+      <section class="page-intro">
+        <h1>Research</h1>
+
+        <p>
+          My research focuses on AI-mediated health communication and
+          persuasive message design. I am particularly interested in identifying
+          the message strategies and source characteristics that enhance the
+          persuasiveness of AI-generated and algorithmically mediated health
+          information, and in understanding how AI can support adaptive
+          communication interventions for health and risk management,
+          particularly under conditions of uncertainty.
+        </p>
+      </section>
+
+      <section class="publications-section">
+        <div class="section-heading">
+          <h2>Publications</h2>
+        </div>
+
+        <div class="publication-list">
+          {
+            publications.map((publication) => (
+              <article class="publication-item">
+
+                <div class="publication-thumbnail">
+                  <img
+                    src={publication.image}
+                    alt={`Thumbnail for ${publication.title}`}
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="publication-content">
+
+                  <div class="publication-year">
+                    {publication.year}
+                  </div>
+
+                  <h3>
+                    {
+                      publication.link ? (
+                        <a
+                          href={publication.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {publication.title}
+                        </a>
+                      ) : (
+                        publication.title
+                      )
+                    }
+                  </h3>
+
+                  <p class="publication-meta">
+                    {publication.authors}
+                    {" · "}
+                    {publication.venue}
+                  </p>
+
+                </div>
+
+                <div class="publication-action">
+                  <span>
+                    {publication.status}
+                  </span>
+                </div>
+
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <div class="page-note">
+  <p>
+    Conference papers and works in progress are listed in my <a href="/cv">CV</a>.
+  </p>
+</div>
+
+
+    </main>
+  
+
+    <style>
+      .page-intro {
+        max-width: 900px;
+
+        padding-top: 40px;
+        padding-bottom: 80px;
+      }
+
+      .page-intro h1 {
+        margin-bottom: 36px;
+
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+        letter-spacing: -0.05em;
+      }
+
+      .page-intro p {
+        max-width: 860px;
+        margin-bottom: 0;
+
+        color: var(--text-primary);
+
+        font-size: clamp(1.2rem, 2vw, 1.55rem);
+        line-height: 1.55;
+        letter-spacing: -0.02em;
+      }
+
+      .publications-section {
+        padding-top: 40px;
+        padding-bottom: 80px;
+
+        border-top: 1px solid var(--border);
+      }
+
+      .section-heading {
+        margin-bottom: 56px;
+      }
+
+      .section-heading h2 {
+        margin: 0;
+
+        font-size: clamp(2.4rem, 4.5vw, 4rem);
+        line-height: 1;
+        letter-spacing: -0.045em;
+        font-weight: 600;
+      }
+
+      .publication-list {
+        border-top: 1px solid var(--border);
+      }
+
+      .publication-item {
+        display: grid;
+        grid-template-columns: 160px minmax(0, 1fr) auto;
+        gap: 28px;
+        align-items: start;
+
+        padding: 32px 0;
+
+        border-bottom: 1px solid var(--border);
+      }
+
+      .publication-thumbnail {
+        width: 160px;
+        aspect-ratio: 4 / 3;
+
+        overflow: hidden;
+
+        border-radius: 14px;
+        background: var(--surface);
+      }
+
+      .publication-thumbnail img {
+        width: 100%;
+        height: 100%;
+
+        display: block;
+
+        object-fit: cover;
+      }
+
+      .publication-year {
+        margin-bottom: 8px;
+
+        color: var(--text-secondary);
+
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      .publication-content h3 {
+        max-width: 760px;
+        margin-bottom: 10px;
+
+        font-size: 1.18rem;
+        line-height: 1.35;
+        letter-spacing: -0.02em;
+      }
+
+      .publication-content h3 a {
+        color: inherit;
+
+        transition: opacity 0.2s ease;
+      }
+
+      .publication-content h3 a:hover {
+        opacity: 0.65;
+      }
+
+      .publication-meta {
+        margin-bottom: 0;
+
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+
+      .publication-action {
+        padding-top: 2px;
+
+        color: var(--text-secondary);
+
+        font-size: 0.82rem;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 900px) {
+        .publication-item {
+          grid-template-columns: 130px minmax(0, 1fr);
+        }
+
+        .publication-thumbnail {
+          width: 130px;
+        }
+
+        .publication-action {
+          display: none;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .page-intro {
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }
+
+        .page-intro h1 {
+          margin-bottom: 28px;
+        }
+
+        .publication-item {
+          grid-template-columns: 1fr;
+          gap: 16px;
+
+          padding: 24px 0;
+        }
+
+        .publication-thumbnail {
+          width: 100%;
+          max-width: 320px;
+        }
+      }
+
+      .page-note {
+  padding: 40px 0 96px;
+
+  border-top: 1px solid var(--border);
+}
+
+.page-note p {
+  margin: 0;
+
+  color: var(--text-secondary);
+
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.page-note a {
+  color: var(--text-primary);
+  font-weight: 500;
+
+  transition: opacity 0.2s ease;
+}
+
+.page-note a:hover {
+  opacity: 0.65;
+}
+    </style>
+  </body>
+</html>

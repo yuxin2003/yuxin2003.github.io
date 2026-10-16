@@ -1,0 +1,132 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      name="description"
+      content="Curriculum vitae of Yuxin Chen"
+    />
+
+    <title>CV | Yuxin Chen</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <main>
+      <section class="page-intro">
+        <div>
+          <h1>CV</h1>
+
+          <p>
+            My academic curriculum vitae.
+          </p>
+        </div>
+
+        <a
+          class="cv-link"
+          href="https://docs.google.com/document/d/1aRoPY5GJMtFku7VYAmP-7jfiebmlfumgZUQfECNFg2w/preview"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open full CV ↗
+        </a>
+      </section>
+
+      <section class="cv-section">
+        <div class="cv-frame">
+          <iframe
+            src="https://docs.google.com/document/d/1aRoPY5GJMtFku7VYAmP-7jfiebmlfumgZUQfECNFg2w/preview"
+            title="Yuxin Chen CV"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <style>
+      .page-intro {
+        padding-top: 120px;
+        padding-bottom: 64px;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      .page-intro h1 {
+        margin-bottom: 20px;
+
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+        letter-spacing: -0.05em;
+      }
+
+      .page-intro p {
+        margin-bottom: 0;
+
+        font-size: 1.15rem;
+      }
+
+      .cv-link {
+        margin-bottom: 6px;
+
+        color: var(--text-primary);
+
+        font-size: 0.92rem;
+        font-weight: 500;
+        white-space: nowrap;
+
+        transition: opacity 0.2s ease;
+      }
+
+      .cv-link:hover {
+        opacity: 0.6;
+      }
+
+      .cv-section {
+        padding-top: 0;
+        padding-bottom: 140px;
+      }
+
+      .cv-frame {
+        width: 100%;
+        overflow: hidden;
+
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+      }
+
+      .cv-frame iframe {
+        width: 100%;
+        height: 1200px;
+
+        display: block;
+
+        border: 0;
+        background: white;
+      }
+
+      @media (max-width: 700px) {
+        .page-intro {
+          padding-top: 80px;
+
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .cv-frame iframe {
+          height: 900px;
+        }
+      }
+    </style>
+  </body>
+</html>
