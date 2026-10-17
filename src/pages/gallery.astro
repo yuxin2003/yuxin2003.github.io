@@ -4,40 +4,100 @@ import Header from "../components/Header.astro";
 
 const photos = [
   {
-    src: "/images/gallery/photo-1.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Zurich, Switzerland",
-    size: "large",
+    src: "/images/gallery/photo-1.webp",
+    location: "Boeing-747 Jumbo Jet, Air China",
   },
   {
-    src: "/images/gallery/photo-2.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Shanghai, China",
-    size: "medium",
+    src: "/images/gallery/photo-2.webp",
+    location: "Xishan Island, Suzhou, China",
   },
   {
-    src: "/images/gallery/photo-3.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Lucerne, Switzerland",
-    size: "small",
+    src: "/images/gallery/photo-3.webp",
+    location: "Jungmun Daepo Columnar Joints, Seogwipo, South Korea",
   },
   {
-    src: "/images/gallery/photo-4.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Beijing, China",
-    size: "medium",
+    src: "/images/gallery/photo-14.webp",
+    location: "Old Cape Point Lighthouse, Cape Town, South Africa",
   },
   {
-    src: "/images/gallery/photo-5.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Paris, France",
-    size: "large",
+    src: "/images/gallery/photo-5.webp",
+    location: "Seongsan Ilchulbong, Seogwipo, South Korea",
   },
   {
-    src: "/images/gallery/photo-6.JPG",
-    alt: "Photography by Yuxin Chen",
-    location: "Shanghai, China",
-    size: "small",
+    src: "/images/gallery/photo-6.webp",
+    location: "Fisherman's Bastion, Budapest, Hungary",
+  },
+  {
+    src: "/images/gallery/photo-11.webp",
+    location: "Camps Bay Beach, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-4.webp",
+    location: "Seongsan Port, Seogwipo, South Korea",
+  },
+  {
+    src: "/images/gallery/photo-7.webp",
+    location: "Hungarian Parliament Building, Budapest, Hungary",
+  },
+  {
+    src: "/images/gallery/photo-8.webp",
+    location: "European Parliament, Strasbourg, France",
+  },
+  {
+    src: "/images/gallery/photo-9.webp",
+    location: "St. Paul's Church, Strasbourg, France",
+  },
+  {
+    src: "/images/gallery/photo-13.webp",
+    location: "Cape of Good Hope, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-15.webp",
+    location: "Diaz Beach, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-16.webp",
+    location: "Chapman's Peak Drive, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-17.webp",
+    location: "Hout Bay, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-18.webp",
+    location: "Säntis, Schwägalp, Switzerland",
+  },
+  {
+    src: "/images/gallery/photo-19.webp",
+    location: "Old Town, Zurich, Switzerland",
+  },
+  {
+    src: "/images/gallery/photo-12.webp",
+    location: "Boulders Beach, Cape Town, South Africa",
+  },
+  {
+    src: "/images/gallery/photo-21.webp",
+    location: "Lake Zurich, Zurich, Switzerland",
+  },
+  {
+    src: "/images/gallery/photo-23.webp",
+    location: "Rocky Mountain National Park, Colorado, US",
+  },
+  {
+    src: "/images/gallery/photo-24.webp",
+    location: "Corniche, Doha, Qatar",
+  },
+  {
+    src: "/images/gallery/photo-22.webp",
+    location: "Matterhorn, Zermatt, Switzerland",
+  },
+  {
+    src: "/images/gallery/photo-26.webp",
+    location: "SISU Campus, Shanghai, China",
+  },
+  {
+    src: "/images/gallery/photo-20.webp",
+    location: "Rotes Schloss, Zurich, Switzerland",
   },
 ];
 ---
@@ -70,17 +130,11 @@ const photos = [
       <section class="gallery-page">
         <div class="gallery-grid">
           {
-            photos.map((photo, index) => (
-              <figure
-                class:list={[
-                  "photo-item",
-                  `photo-${photo.size}`,
-                  `photo-offset-${(index % 4) + 1}`,
-                ]}
-              >
+            photos.map((photo) => (
+              <figure class="photo-item">
                 <img
                   src={photo.src}
-                  alt={photo.alt}
+                  alt=""
                   loading="lazy"
                 />
 
@@ -124,15 +178,20 @@ const photos = [
       }
 
       .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        column-count: 3;
         column-gap: 24px;
-        row-gap: 90px;
-        align-items: start;
       }
 
       .photo-item {
-        margin: 0;
+        width: 100%;
+
+        display: inline-block;
+
+        margin: 0 0 32px;
+
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
       }
 
       .photo-item img {
@@ -145,7 +204,7 @@ const photos = [
       }
 
       .photo-item figcaption {
-        margin-top: 12px;
+        margin-top: 10px;
 
         color: var(--text-secondary);
 
@@ -153,51 +212,14 @@ const photos = [
         line-height: 1.4;
       }
 
-      .photo-large {
-        grid-column: span 5;
-      }
-
-      .photo-medium {
-        grid-column: span 4;
-      }
-
-      .photo-small {
-        grid-column: span 3;
-      }
-
-      .photo-offset-1 {
-        margin-top: 0;
-      }
-
-      .photo-offset-2 {
-        margin-top: 70px;
-      }
-
-      .photo-offset-3 {
-        margin-top: 25px;
-      }
-
-      .photo-offset-4 {
-        margin-top: 110px;
-      }
-
       @media (max-width: 900px) {
         .gallery-grid {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 48px 20px;
+          column-count: 2;
+          column-gap: 20px;
         }
 
-        .photo-large,
-        .photo-medium,
-        .photo-small {
-          grid-column: span 1;
-        }
-
-        .photo-offset-1,
-        .photo-offset-2,
-        .photo-offset-3,
-        .photo-offset-4 {
-          margin-top: 0;
+        .photo-item {
+          margin-bottom: 28px;
         }
       }
 
@@ -208,8 +230,11 @@ const photos = [
         }
 
         .gallery-grid {
-          grid-template-columns: 1fr;
-          gap: 52px;
+          column-count: 1;
+        }
+
+        .photo-item {
+          margin-bottom: 36px;
         }
 
         .photo-item img {

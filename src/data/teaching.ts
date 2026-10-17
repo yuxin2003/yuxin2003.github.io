@@ -5,7 +5,7 @@ export const courses = [
     year: "2026 Fall",
     image: "/images/teaching/misinformation.png",
     syllabus: "/syllabi/misinformation-fact-checking.pdf",
-    showSyllabus: true,
+    showSyllabus: false,
   },
 
   {
@@ -14,7 +14,7 @@ export const courses = [
     year: "2026 Fall",
     image: "/images/teaching/methods.png",
     syllabus: "/syllabi/methods-communication-research.pdf",
-    showSyllabus: true,
+    showSyllabus: false,
   },
 
   {

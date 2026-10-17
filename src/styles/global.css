@@ -182,6 +182,10 @@ p {
   letter-spacing: -0.02em;
 }
 
+.research-intro p + p {
+  margin-top: 22px;
+}
+
 .publications-block {
   margin-top: 24px;
 }

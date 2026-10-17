@@ -26,13 +26,28 @@ import { publications } from "../data/publications";
 
         <p>
           My research focuses on AI-mediated health communication and
-          persuasive message design. I am particularly interested in identifying
+          persuasive message design. 
+        </p>
+         
+        <p> 
+          I am particularly interested in (1) identifying
           the message strategies and source characteristics that enhance the
           persuasiveness of AI-generated and algorithmically mediated health
-          information, and in understanding how AI can support adaptive
-          communication interventions for health and risk management,
-          particularly under conditions of uncertainty.
+          information, and in (2) understanding how AI can support adaptive
+          communication interventions for health and risk management.
         </p>
+
+        <div class="research-actions">
+          <a
+            class="button button-secondary"
+            href="https://scholar.google.com/citations?user=ddujFqAAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Scholar
+          </a>
+        </div>
+
       </section>
 
       <section class="publications-section">
@@ -131,7 +146,10 @@ import { publications } from "../data/publications";
         line-height: 1.55;
         letter-spacing: -0.02em;
       }
-
+      .page-intro p + p {
+        margin-top: 22px;
+      }
+      
       .publications-section {
         padding-top: 40px;
         padding-bottom: 80px;
@@ -228,6 +246,44 @@ import { publications } from "../data/publications";
 
         font-size: 0.82rem;
         white-space: nowrap;
+      }
+
+      .research-actions {
+  margin-top: 32px;
+}
+
+        .button {
+          min-height: 44px;
+          padding: 0 18px;
+
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+
+          border-radius: 999px;
+
+          font-size: 0.92rem;
+          font-weight: 500;
+
+          transition:
+            transform 0.2s ease,
+            background 0.2s ease,
+            color 0.2s ease,
+            border-color 0.2s ease;
+        }
+
+      .button:hover {
+        transform: translateY(-1px);
+      }
+
+      .button-secondary {
+        background: transparent;
+        color: var(--text-primary);
+        border: 1px solid var(--border);
+      }
+
+      .button-secondary:hover {
+        background: var(--surface);
       }
 
       @media (max-width: 900px) {
