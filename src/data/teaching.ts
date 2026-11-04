@@ -13,8 +13,8 @@ export const courses = [
     level: "Undergraduate",
     year: "2026 Fall",
     image: "/images/teaching/methods.png",
-    syllabus: "/syllabi/methods-communication-research.pdf",
-    showSyllabus: false,
+    syllabus: "/syllabi/Methods_Syllabus.pdf",
+    showSyllabus: true,
   },
 
   {
